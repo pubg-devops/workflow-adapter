@@ -1,10 +1,21 @@
 {
   "name": "workflow-adapter",
-  "version": "1.0.0",
-  "description": "Multi-agent workflow automation system for Claude Code. Install agents, plan features, execute tasks, and validate progress.",
-  "author": {
-    "name": "dal.park@pubg.com"
+  "source": {
+    "source": "github",
+    "repo": "pubg-devops/workflow-adapter"
   },
+  "description": "Multi-agent workflow automation system for Claude Code. Install agents, plan features, execute tasks, and validate progress.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dal.park",
+    "email": "dal.park@pubg.com"
+  },
+  "repository": "https://github.com/pubg-devops/workflow-adapter",
+  "license": "MIT",
   "keywords": ["workflow", "multi-agent", "automation", "orchestration"],
-  "commands": "./commands/"
+  "category": "productivity",
+  "commands": [
+    "./commands/"
+  ],
+  "strict": false
 }
