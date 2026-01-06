@@ -4,7 +4,7 @@ Multi-agent workflow system for Claude Code. 여러 AI agent가 협업하여 fea
 
 ## Installation
 
-### Option 1: GitHub (Recommended)
+### Via devops-marketplace (Recommended)
 
 ```bash
 # Add the devops-marketplace
@@ -14,17 +14,10 @@ Multi-agent workflow system for Claude Code. 여러 AI agent가 협업하여 fea
 /plugin install workflow-adapter@devops-marketplace
 ```
 
-### Option 2: Local Path
+### Direct GitHub Install
 
 ```bash
-# Clone the repository
-git clone https://github.com/pubg-devops/workflow-adapter.git
-
-# Add as local marketplace
-/plugin marketplace add /path/to/workflow-adapter
-
-# Install
-/plugin install workflow-adapter@devops-marketplace
+/plugin install github:pubg-devops/workflow-adapter
 ```
 
 After installation, restart Claude Code to activate the plugin.
