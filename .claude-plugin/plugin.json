@@ -1,0 +1,9 @@
+{
+  "name": "workflow-adapter",
+  "version": "1.0.0",
+  "description": "Multi-agent workflow automation system for Claude Code. Install agents, plan features, execute tasks, and validate progress.",
+  "author": {
+    "name": "dal.park@pubg.com"
+  },
+  "keywords": ["workflow", "multi-agent", "automation", "orchestration"]
+}
